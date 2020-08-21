@@ -1,0 +1,44 @@
+.slider-movies {
+  height: 500px;
+
+  &__movie {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    &-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding-bottom: 40px;
+
+      > div {
+        // background-color: #a7a7a7cf;
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        padding: 20px 50px;
+
+        .title {
+          color: white;
+          font-size: 60px;
+          font-weight: 900;
+        }
+
+        .description {
+          color: #8da0bc;
+          height: 150px;
+          font-size: 20px;
+          text-shadow: 1px 2px 3px black;
+        }
+
+        .btn {
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}

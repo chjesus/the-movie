@@ -1,0 +1,54 @@
+.upcoming-list {
+  padding: 25px 50px;
+  background-color: #001529;
+
+  .ant-pagination-jump-next-custom-icon,
+  .ant-pagination-jump-prev-custom-icon {
+    .ant-pagination-item-ellipsis {
+      color: gray;
+    }
+
+    svg {
+      color: gray;
+    }
+  }
+
+  .ant-pagination-item-link {
+    background-color: transparent;
+    border-color: #ffffff;
+
+    svg {
+      color: #ffffff;
+    }
+  }
+
+  .ant-pagination-item {
+    background-color: transparent;
+    border-color: #ffffff;
+
+    a {
+      color: #ffffff;
+      font-weight: 100;
+    }
+  }
+
+  .ant-pagination-item-active {
+    background-color: #ffffff;
+
+    a {
+      color: black;
+      font-weight: 900;
+    }
+  }
+
+  .ant-pagination-options {
+    display: none;
+  }
+
+  &-pagination {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
